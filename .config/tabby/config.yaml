@@ -1,0 +1,212 @@
+version: 3
+profiles: []
+hotkeys:
+  toggle-window:
+    - Ctrl-Space
+  copy-current-path: []
+  scroll-to-bottom: []
+  ctrl-c:
+    - Ctrl-C
+  copy:
+    - Ctrl-Shift-C
+  paste:
+    - Ctrl-Shift-V
+    - Shift-Insert
+  select-all:
+    - Ctrl-Shift-A
+  clear: []
+  zoom-in:
+    - Ctrl-=
+    - Ctrl-Shift-=
+  zoom-out:
+    - Ctrl--
+    - Ctrl-Shift--
+  reset-zoom:
+    - Ctrl-0
+  home:
+    - Home
+  end:
+    - End
+  previous-word:
+    - Ctrl-Left
+  next-word:
+    - Ctrl-Right
+  delete-previous-word:
+    - Ctrl-Backspace
+  delete-line:
+    - Ctrl-Shift-Backspace
+  delete-next-word:
+    - Ctrl-Delete
+  search:
+    - Ctrl-Shift-F
+  pane-focus-all:
+    - Ctrl-Shift-I
+  restart-telnet-session: []
+  restart-ssh-session: []
+  launch-winscp: []
+  settings-tab: {}
+  settings:
+    - Ctrl-,
+  serial:
+    - Alt-K
+  restart-serial-session: []
+  new-window:
+    - Ctrl-Shift-N
+  new-tab:
+    - Ctrl-Shift-T
+  profile: {}
+  profile-selectors: {}
+  toggle-fullscreen:
+    - F11
+    - Alt-Enter
+  close-tab:
+    - Ctrl-Shift-W
+  reopen-tab:
+    - Ctrl-Shift-Z
+  toggle-last-tab: []
+  rename-tab:
+    - Ctrl-Shift-R
+  next-tab:
+    - Ctrl-Shift-Right
+    - Ctrl-Tab
+  previous-tab:
+    - Ctrl-Shift-Left
+    - Ctrl-Shift-Tab
+  move-tab-left:
+    - Ctrl-Shift-PageUp
+  move-tab-right:
+    - Ctrl-Shift-PageDown
+  rearrange-panes:
+    - Ctrl-Shift
+  duplicate-tab: []
+  explode-tab:
+    - Ctrl-Shift-.
+  combine-tabs:
+    - Ctrl-Shift-,
+  tab-1:
+    - Alt-1
+  tab-2:
+    - Alt-2
+  tab-3:
+    - Alt-3
+  tab-4:
+    - Alt-4
+  tab-5:
+    - Alt-5
+  tab-6:
+    - Alt-6
+  tab-7:
+    - Alt-7
+  tab-8:
+    - Alt-8
+  tab-9:
+    - Alt-9
+  tab-10:
+    - Alt-0
+  tab-11: []
+  tab-12: []
+  tab-13: []
+  tab-14: []
+  tab-15: []
+  tab-16: []
+  tab-17: []
+  tab-18: []
+  tab-19: []
+  tab-20: []
+  split-right:
+    - Ctrl-Shift-S
+  split-bottom:
+    - Ctrl-Shift-D
+  split-left: []
+  split-top: []
+  pane-nav-right:
+    - Ctrl-Alt-Right
+  pane-nav-down:
+    - Ctrl-Alt-Down
+  pane-nav-up:
+    - Ctrl-Alt-Up
+  pane-nav-left:
+    - Ctrl-Alt-Left
+  pane-nav-previous:
+    - Ctrl-Alt-[
+  pane-nav-next:
+    - Ctrl-Alt-]
+  pane-nav-1: []
+  pane-nav-2: []
+  pane-nav-3: []
+  pane-nav-4: []
+  pane-nav-5: []
+  pane-nav-6: []
+  pane-nav-7: []
+  pane-nav-8: []
+  pane-nav-9: []
+  pane-maximize:
+    - Ctrl-Alt-Enter
+  close-pane: []
+  pane-increase-vertical: []
+  pane-decrease-vertical: []
+  pane-increase-horizontal: []
+  pane-decrease-horizontal: []
+  switch-profile:
+    - Ctrl-Alt-T
+  profile-selector:
+    - Ctrl-Shift-E
+  workspace-profile-1: []
+  workspace-profile-2: []
+  workspace-profile-3: []
+  workspace-profile-4: []
+  workspace-profile-5: []
+terminal:
+  searchOptions: {}
+  colorScheme:
+    name: Nord
+    foreground: '#d8dee9'
+    background: '#2e3440'
+    cursor: '#d8dee9'
+    colors:
+      - '#3b4252'
+      - '#bf616a'
+      - '#a3be8c'
+      - '#ebcb8b'
+      - '#81a1c1'
+      - '#b48ead'
+      - '#88c0d0'
+      - '#e5e9f0'
+      - '#373e4d'
+      - '#94545d'
+      - '#809575'
+      - '#b29e75'
+      - '#68809a'
+      - '#8c738c'
+      - '#6d96a5'
+      - '#aeb3bb'
+  font: FiraCode Nerd Font
+  customColorSchemes: []
+  ligatures: true
+  fallbackFont: Consolas
+  profile: local:powershell-core
+  scrollbackLines: 99999
+  wordSeparator: ' ()[]{}''"-_'
+  hideTabIndex: true
+  showTabProfileIcon: true
+  focusFollowsMouse: true
+  setComSpec: true
+ssh:
+  knownHosts: []
+  warnOnClose: true
+configSync:
+  parts: {}
+clickableLinks: {}
+accessibility: {}
+appearance:
+  css: ''
+  vibrancy: true
+hacks: {}
+profileDefaults: {}
+electronFlags:
+  - - force_discrete_gpu
+    - '0'
+workspaceManager: {}
+enableWelcomeTab: false
+pluginBlacklist: []
+
